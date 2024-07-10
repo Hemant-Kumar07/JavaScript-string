@@ -1,0 +1,60 @@
+//for-of loop
+ let str = "JavaScript";
+
+ let size = 0;
+ for( let i of str) {
+     console.log("i=",i);
+     size++;
+ }
+
+ console.log("string size=",size);
+
+ for in loop
+
+ let student = {
+     name: "Rahul kumar",
+     age: 20,
+     cgpa: 9.5,
+     isPass: true,
+ } ;
+
+// for (let key in student) {
+     console.log("key=",key,"value=",student[key]);
+}
+
+
+ for(i=0;i<=100;i=i+2){
+     console.log("Even No is:",i);
+ }
+
+//pactice Qs2
+ 
+ let gameNum= 25;
+ let userNum = prompt("Guess the game number :");
+
+ while(gameNum !=userNum){
+     userNum= prompt("You entered wrong number, Guess again :");
+ }
+
+ console.log("congratulations,You entered the right number👌👌😘😘")
+
+
+
+//String
+// let str = "KakaitiyaHemant";
+
+// console.log(str[0]);
+
+let obj = {
+    item: "pen",
+    price: 10,
+};
+
+let output = `the cost of${obj.item} is ${obj.price} rupees `;
+console.log(output);
+console.log("The cost of ",obj.item,"is",obj.price ,"ruppes");
+//Template Literals
+let specialString = `This is a template literal ${1+2+3}`;
+console.log(specialString);
+
+                                                                          
